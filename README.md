@@ -4,6 +4,8 @@
 images, icons and color pallet; however the integrity of the layout was conserved.
 
 Original Comp:
+
+
 ![original comp](https://github.com/jennPeavler/jp-comp-challenge-3/blob/master/images/static-comp-challenge-3.jpg)
 
 My Comp:
