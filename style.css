@@ -1,0 +1,185 @@
+@import 'aside.css';
+@import 'header.css';
+@import 'graphs.css';
+@import 'job-section.css';
+@import 'media-queries-mobile.css' (max-width: 660px);
+
+/****BASE STYLINGS-FULL SCREEN****/
+
+body {
+  display: flex;
+  color: #7A7A7A;
+  height: 100%;
+}
+
+main {
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: auto;
+  background: #2E2E2E;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: #7A7A7A;
+}
+
+button {
+  font-size: 10px;
+}
+
+button:focus {
+  outline: dotted 0.5px #BC2D61;
+}
+
+a:hover {
+  color: #FB4389;
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 960px) {
+
+/******UNIVERSAL STYLING -- MED SCREEN******/
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+/****ASIDE SECTION - MED SCREEN *****/
+
+  .aside-section {
+    display: flex;
+    padding: 15px 0;
+    font-size: 10px;
+    border-bottom-style: ridge;
+  }
+
+  #aside-section-1 {
+    align-self: flex-start;
+    margin-left: 2%;
+    border-bottom: none;
+  }
+
+  #aside-list {
+    display: none;
+  }
+
+  #profile-image {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    margin-left: 135%;
+  }
+
+  #job-boards {
+    background: #2E2E2E;
+  }
+
+  #aside-section-2,
+  #aside-section-3,
+  #aside-section-4 {
+    height: 20px;
+    border-bottom: none;
+    margin-top: 140px;
+  }
+
+  #aside-section-2 {
+    margin-left: -35px;
+  }
+
+  #mobile-arrow {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  #user-name {
+    margin-left: -25px;
+  }
+
+  .aside-section div:hover {
+    background: #2E2E2E;
+  }
+
+/*****GRAPH SECTION -- MED SCREEN****/
+
+  #bar-graph-article button {
+    margin-top: 10px;
+  }
+
+  #circle-section button {
+    margin-top: 48px;
+  }
+
+}
+
+
+@media screen and (max-width: 860px) {
+
+/******HEADER SECTION-BOTTOM- MED/SMALL SCREEN**/
+
+  #header-bottom-bottom li {
+    padding-right: 3%;
+  }
+
+/****JOB TABLE --- MED/SMALL SCREEN*****/
+
+  table {
+    margin-bottom: 50px;
+  }
+
+  .left-col {
+    width: 35%;
+    font-weight: bold;
+  }
+
+  .right-col {
+    width: 65%;
+  }
+
+/****JOB TABLE --- MED/SMALL SCREEN*****/
+
+  #external-links {
+    min-height: 600px;
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 1080px) {
+
+/*********ASIDE SECTION - LARGE SCREEN******/
+
+  #profile-image {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+
+}

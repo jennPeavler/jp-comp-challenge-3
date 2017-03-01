@@ -1,0 +1,153 @@
+/*****HEADER-TOP-FULLSCREEN****/
+
+#header-top {
+  display: flex;
+  width: 100%;
+}
+
+.nav img {
+  height: 20px;
+  width: 20px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.nav p {
+  display: inline;
+  font-size: 14px;
+  color: #A0A0A0
+}
+
+.nav {
+  border-right: solid 1px #D9D9D9;
+  border-bottom: solid 1px #D9D9D9;
+  padding: 15px 20px;
+}
+
+#search-nav {
+  border-right: solid 1px #D9D9D9;
+  border-bottom: solid 1px #D9D9D9;
+  width: 2000px;
+}
+
+#help-nav {
+  border-right: none;
+}
+
+.nav:hover {
+  background: #BC2D61;
+}
+
+/*****HEADER-BOTTOM-FULLSCREEN****/
+
+#location-div img {
+  height: 10px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+#location-div p {
+  margin: 0;
+}
+
+#header-bottom-bottom ul {
+  list-style-type: none;
+  font-size: 10px;
+  padding: 0;
+}
+
+#header-bottom-bottom li {
+  display: inline;
+  padding-right: 5%;
+}
+
+#location-div a {
+  color: #A0A0A0;
+}
+
+#header-bottom {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.header-bottom-img {
+  height: 10px;
+}
+
+#open-dot {
+  width: 8px;
+  height: 8px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#open-button{
+  padding-left: 15px;
+  padding-right: 15px;
+  width: auto;
+  height: 25px;
+  border-radius: 25px;
+  border: solid 1px #D3D3D3;
+  background: white;
+  margin-left: 5px;
+}
+
+#header-bottom-top {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px 0 15px;
+}
+
+#header-bottom-bottom {
+  padding: 15px 15px 0 15px;
+}
+
+#header-bottom-top-2,
+#header-bottom-top-1 {
+  width: 50%
+}
+
+#header-bottom-top-2 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+}
+
+.header-bottom-buttons {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  border: solid 1px #D3D3D3;
+  background: white;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#location-div {
+  display: flex;
+  font-size: 10px;
+  color: #A0A0A0;
+}
+
+#summary {
+  color: #FB4389;
+  text-decoration: underline;
+}
+
+#mobile-summary {
+  display: none;
+}
+
+.header-bottom-buttons:hover,
+#open-button:hover {
+  background: #7A7A7A;
+}
+
+#location-div a:hover {
+  color: #FB4389;
+  text-decoration: underline;
+}

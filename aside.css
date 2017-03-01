@@ -1,0 +1,80 @@
+/*****ASIDE-FULLSCREEN******/
+
+.aside-section {
+  border-bottom: groove 2px #171717;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  justify-content: space-around;
+  font-size: 10px;
+  border-bottom-style: ridge;
+}
+
+#aside-section-2 div,
+#aside-section-3 div,
+#aside-section-4 div {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.aside-section img {
+  width: 10px;
+  height: 10px;
+  display: inline;
+  margin-right: 5px;
+}
+
+.aside-section div p {
+ display: inline;
+}
+
+.aside-section p {
+ margin: 0;
+}
+
+#user-name img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.group-heading {
+  padding-left: 15px;
+}
+
+#aside-section-1 {
+    align-items: center;
+}
+
+#job-boards {
+  background: #BC2D61;
+}
+
+#profile-image {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+#aside-section-2,
+#aside-section-3,
+#aside-section-4 {
+  height: 140px;
+}
+
+#aside-section-4 {
+  border-bottom: none;
+}
+
+#mobile-arrow {
+  display: none;
+}
+
+.aside-section div:hover {
+  background: #BC2D61;
+}
+
+#user-name:hover {
+  background: #2E2E2E;
+}
